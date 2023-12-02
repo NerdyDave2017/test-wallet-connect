@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useAccount, useDisconnect } from "wagmi";
 import { useContractWrite, usePrepareContractWrite } from "wagmi";
 import { parseEther } from "viem/utils";
-import { abi } from "./contractAbi";
+import { abi } from "../contractAbi";
 
 const ContractAddress = "0x38E1c0cEb06abD37fd07765B6D6eCbb171878d3e";
 
